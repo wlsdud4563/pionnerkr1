@@ -1,0 +1,509 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 3000px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul{
+    list-style: none;
+}
+.topvideo{
+    background-color: #444;
+    width: 100%;
+    height: 498px;
+    overflow: hidden;
+    position: relative;
+} 
+.topvideo video{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+}
+header{
+
+    height: 72px;
+    background-color: #161616;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 900;
+    box-shadow: 4px 4px 20px rgba(0,0,0,0.4);
+    
+}
+.hwrap{
+    width: 1400px;
+    height: 72px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    line-height: 72px;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    
+}
+h1 img{
+    width: 350px;
+    position: absolute;
+    top: -5px;
+    left: 0;
+}
+.gnb{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 450px;
+}
+.gnb li{
+    font-size: 18px;
+    margin-left:  30px;
+    margin-right: 30px;
+    color: #fff;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(3, 3, 3, 0.57);
+}
+.gnb li:hover{
+    text-shadow: 0px 0px 2px rgb(0, 0, 0); 
+    
+}
+.util{
+    display: flex;
+    margin-right: 20px;
+}
+.util li{
+    font-size: 14px;
+    color: #fff;
+    
+}
+.util li::after{
+    content: '|';
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.util li:last-child::after{
+    content: none;
+}
+.util li:last-child img{
+      width: 12px;
+      position: absolute;
+      top: 30px;
+      right: 8px;
+}
+main{
+    
+}
+.mainwrap{
+    width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tit h1{
+    margin-top: 72px;
+    font-size: 9vw;
+    color: #161616;
+    text-align: center;
+}
+.newitem{
+    margin-top: 92px;
+    text-align: center;
+    width: 1200px;
+    height: 110px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 110px;
+    background-image: url(../최신제품.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-size: 1300px;
+    overflow: hidden;
+}
+.newitem:hover{
+    background-size: 1200px;
+    transition: all 1s;
+}
+.newitem h2{
+    color: rgb(255, 255, 255);
+    text-shadow:2px 2px 5px rgba(0,0,0,0.5);
+    font-size: 37px;
+}
+.Interview{
+    margin-top: 30px;
+    text-align: center;
+    width: 1200px;
+    height: 110px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 110px;
+    background-image: url(../img/DJ-Snake-Malaa-Photo-Credit-Miko-Goncalvez.jpg);
+    background-repeat: no-repeat;
+    background-position: center -200px;
+    background-size: 1300px;
+}
+.Interview h2{
+    color: rgb(255, 255, 255);
+    text-shadow:2px 2px 5px rgba(0,0,0,0.5);
+    font-size: 37px;
+}
+.Interview:hover{
+    background-size: 1200px;
+    transition: all 1s;
+}
+.Performance{
+    margin-top: 30px;
+    text-align: center;
+    width: 1200px;
+    height: 110px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 110px;
+    background-image: url(../img/0731_lb-dj-marshmello_1200x630.jpg);
+    background-repeat: no-repeat;
+    background-position: center -480px;
+    background-size: 1300px;
+}
+.Performance h2{
+    color: rgb(255, 255, 255);
+    text-shadow:2px 2px 5px rgba(0,0,0,0.5);
+    font-size: 37px;
+}
+.Performance:hover{
+    background-size: 1200px;
+    transition: all 1s;
+}
+
+.row1{
+    margin-top: 200px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.row1 h3{
+    text-align: center;
+    font-size: 32px;
+    margin-top: 72px;
+    font-weight: 200;
+    padding-bottom: 32px;
+}
+.con{
+}
+.row1 .item{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.mainitem{
+    width: 400px;
+    height: 300px;
+    background-image: url(../img/cdj-3000-grid-wide.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-right: auto;
+}
+.Slide{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    position: relative;
+
+}
+.Slide a{
+    height: 300px;
+    width: 250px;
+    position: relative;
+}
+
+.Slide img{
+    width: 250px;
+}
+.Slide button{
+    border: 0;
+    background-color: transparent;
+}
+.Slide button img{
+    width: 20px;
+}
+.Slide p{
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    width: 100%;
+}
+.Slide span{
+    font-size: 12px;
+    color: #ccc;
+}
+.Slide .Price{
+    color: #161616;
+    font-size: 14px;
+}
+
+.Slide a img{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+}
+.mainitem a p{
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    line-height: 300px;
+}
+.mainitem .txt{
+    background-color: rgba(0,0,0,0.7);
+    opacity: 0;
+    transition: all 1s;
+}
+.mainitem:hover .txt{
+    opacity: 1;
+}
+.mainitem2{
+    width: 400px;
+    height: 300px;
+    background-image: url(../img/xdj-rx3-grid-large3.jpg);
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-position: center center;
+    margin-right: auto;
+}
+.mainitem2 a p{
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    line-height: 300px;
+}
+.mainitem2:hover .txt{
+    opacity: 1;
+}
+.mainitem2 .txt{
+    background-color: rgba(0,0,0,0.7);
+    opacity: 0;
+    transition: all 1s;
+}
+.Slide2{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    position: relative;
+
+}
+.Slide2 a{
+    height: 300px;
+    width: 250px;
+    position: relative;
+}
+
+.Slide2 img{
+    width: 200px;
+}
+.Slide2 button{
+    border: 0;
+    background-color: transparent;
+}
+.Slide2 button img{
+    width: 20px;
+}
+.Slide2 p{
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    width: 100%;
+}
+.Slide2 span{
+    font-size: 12px;
+    color: #ccc;
+}
+.Slide2 .Price{
+    color: #161616;
+    font-size: 14px;
+}
+
+.Slide2 a img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.mainitem3{
+    width: 400px;
+    height: 300px;
+    background-image: url(../img/djm-s5-feature-performance-pads.jpg);
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-position: center center;
+    margin-right: auto;
+    
+}
+.mainitem3 a p{
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    line-height: 300px;
+}
+.mainitem3:hover .txt{
+    opacity: 1;
+}
+.mainitem3 .txt{
+    background-color: rgba(0,0,0,0.7);
+    opacity: 0;
+    transition: all 1s;
+}
+.Slide3{
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+
+
+}
+.Slide3 a{
+    height: 300px;
+    width: 250px;
+    position: relative;
+}
+
+.Slide3 img{
+    width: 200px;
+}
+.Slide3 button{
+    border: 0;
+    background-color: transparent;
+}
+.Slide3 button img{
+    width: 20px;
+}
+.Slide3 p{
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    width: 100%;
+}
+.Slide3 span{
+    font-size: 12px;
+    color: #ccc;
+}
+.Slide3 .Price{
+    color: #161616;
+    font-size: 14px;
+}
+
+.Slide3 a img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.Slide3 a:last-child img{
+    width: 110px;
+}
+.Slide3 .btnnext{
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+.Slide3 .btnprev{
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+.Slide .btnnext{
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+.Slide .btnprev{
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+.Slide2 .btnnext{
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+.Slide2 .btnprev{
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+.exitem{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.box img{
+    width: 280px;
+    height: 250px;
+}
+.box{
+    position: relative;
+}
+.box .boxtxt{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   background-color: rgba(0,0,0,0.7);
+    opacity: 0;
+    transition: all 1s;
+    width: 100%;
+    height: 250px;
+}
+.box .boxtxt p{
+    display: block;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    line-height: 250px;
+}
+.box:hover .boxtxt{
+    opacity: 1;
+}
+.row2{
+
+}
+.row2 h1{
+    text-align: center;
+    margin-top: 72px;
+    margin-bottom: 30px;
+}
+.row2{}
+.row2 .con{
+    width: 2000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.conbn img{
+          width: 200px;
+}
+.conbn{
+    width: 600px;
+    height: 300px;
+    background-image: url(../img/brand-rekordbox6-330x250b.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
